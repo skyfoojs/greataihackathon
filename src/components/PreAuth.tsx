@@ -13,14 +13,6 @@ export default function PreAuth({
   const { authStatus } = useAuthenticator(context => [context.authStatus]);
   const router = useRouter();
 
-  useEffect(() => {
-    if (authStatus === 'unauthenticated') {
-      router.push('/login');
-    }
-  }, [authStatus, router]);
-  if (authStatus !== 'authenticated') {
-    return null;
-  }
 
   return <>{children}</>;
 }
