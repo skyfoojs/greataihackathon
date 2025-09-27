@@ -1,0 +1,40 @@
+{
+  "name": "medical-query-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@aws-amplify/storage": "^6.9.6",
+    "@aws-amplify/ui-react": "^6.12.0",
+    "@aws-sdk/client-bedrock-agent": "^3.893.0",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.891.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.893.0",
+    "@aws-sdk/s3-request-presigner": "^3.893.0",
+    "@headlessui/react": "^2.2.8",
+    "aws-amplify": "^6.15.6",
+    "dotenv": "^17.2.2",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5.9.2"
+  }
+}
